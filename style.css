@@ -1,0 +1,80 @@
+body {
+	background: linear-gradient(-45deg, #034f84, #bdcebe, #82b74b, #e6e2d3);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	height: 120%;
+}
+
+@keyframes gradient {
+0% {
+	background-position: 0% 50%;
+	}
+50% {
+	background-position: 100% 50%;
+	}
+100% {
+	background-position: 0% 50%;
+	}
+}
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/cursors/cur-11/cur1054.cur), auto !important;} /* End https://www.cursors-4u.com */
+
+#titlos{
+	text-align:center;
+	color:#C0C0C0;
+	animation: xrwma 10s ease infinite;
+}
+
+@keyframes xrwma{
+0% {
+	color:black;
+	}
+25%{
+	color:blue;
+	}
+50%{
+	color:black;
+	}
+75%{
+	color:blue;
+	}
+100%{
+	color:black;
+	}
+
+}
+ 
+.whole{
+    text-align: center;
+}
+.whole pre{
+    display: inline-block;
+    text-align: left;
+}
+#greek{
+	display:none; 
+        align:center;
+}
+#english{
+	display:inline-block; 
+        align:center;
+}
+#glwsses{
+	align-items: center;
+}
+pre{
+	font-family:"Gill Sans";
+	font-size:22px;
+}
+.div-photo{
+	display: block;
+ 	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+.photo{
+	width:300px;
+	height:240px;
+ }
+th{
+	border:1px solid;
+}	
